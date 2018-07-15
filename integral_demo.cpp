@@ -37,4 +37,5 @@ int main(){
     printf("<==計算結果==>\n");
     printf("台形公式の結果: %lf  相対誤差(%%): %5.3e\n", daikei, d_gosa);
     printf("シンプソンの公式の結果: %lf  相対誤差(%%): %5.3e\n", simpson, s_gosa);
+    return 0;
 }
