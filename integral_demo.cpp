@@ -3,7 +3,6 @@
 double f(double x){
     return sqrt(1.0-x*x);
 }
-
 int main(){
     printf("<====[問題]√1-x^2をx=0から1の範囲で積分する計算の近似解====>\n");
     int n, j;
